@@ -42,10 +42,6 @@ a{
 }
 
 #Mleft{
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 1%;
     background-color: rgba(173, 216, 230, 0.639);
 }
@@ -58,8 +54,7 @@ a{
 
 #Mcenter{
     padding: 1%;
-    width: 50%;
-    margin: 0px 5px 0px 5px;
+    
     background-color: rgba(35, 195, 195, 0.588);
 }
 /* Styling the Paragraph */
@@ -87,7 +82,7 @@ a{
     
 }
 #Mright{
-    width: 25%;   
+
     background-color: rgba(250, 250, 210, 0.732);
 }
 

@@ -10,16 +10,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
+   
+
+
     <!-- Heanding -->
     <div id="head1" align="center">
         <img src="Gallary/Garji.jpg" alt="Pedda harivanam" class="himg">
         <a href="#"><h1>Pedda Harivanam</h1></a>
         <img src="Gallary/Garji.jpg" alt="Pedda Harivanam" class="himg">
-        
     </div>
+<!-- Main content of the body -->
 
-    <section id="Main"> <!-- Content of the body -->
-        <div id="Mleft">
+    <div class="row container-fluid" id="Main">
+
+        <div class="col-sm-3"  id="Mleft">
+
             <h3 class="head2 mt-3">Geographical Information</h3>
             <a href="https://www.google.com/maps/@15.6329996,77.1041099,3a,90y,141.71h,91.15t/data=!3m8!1e1!3m6!1sAF1QipN1XKG7-ljzWp9rvz_7Q7BoFRnbzZ-tZiyIKCZp!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipN1XKG7-ljzWp9rvz_7Q7BoFRnbzZ-tZiyIKCZp%3Dw203-h100-k-no-pi-0-ya89.2352-ro-0-fo100!7i10240!8i5120?entry=ttu" target="_blank"><img src="Gallary/Pedd2.jpg" alt="Pedda Harivanam" class="img-fluid img-thumbnail "></a>
 
@@ -91,17 +96,11 @@
                         <td>Available withing 25KM</td>
                     </tr>
                 </table>
-
-
-
-        </div >
-
-
+        </div>
         <!-- Center -->
 
 
-        <div id="Mcenter">  
-            
+        <div class="col-sm-6" id="Mcenter">
             <h3  class="head2 mt-3">About Pedda Harivanam</h3>
             <div class="text-center">
                 <img src="Gallary/Pedda_Harivanam.jpg" alt=" Pedda Harivanam Image" class="img img-thumbnail" onclick="displayImg('Gallary/Pedda_Harivanam.jpg')">
@@ -136,11 +135,14 @@
             </div>
         </div>
 
+        <!-- Mright  -->
 
-        <div id="Mright">
+        <div class="col-sm-3" id="Mright">
             <h2 class="head2 mt-3">Historical Information</h2>
         </div>
-    </section>
+    </div>
+
+
 
     <button type="button" class="btn btn-success" onclick="jagadeesh()"> submit</button>
     <script src="pedda.js"></script>
