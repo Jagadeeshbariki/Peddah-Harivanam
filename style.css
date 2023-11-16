@@ -35,7 +35,7 @@ a{
     display: flex;
     flex-direction: row;
     border: 5px solid black;
-    background-image: url(/Pedda_Harivanam/Gallary/village.jpg);
+    background-image: url(Gallary/village.jpg);
     background-attachment: fixed;
     background-size:cover;
     background-repeat: no-repeat;   
