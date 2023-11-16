@@ -1,0 +1,12 @@
+.lg{
+    background-color: rgb(204, 0, 255);
+    height: 50px;
+}
+.sm{
+    background-color: yellow;
+    height: 50px;
+}
+.md{
+    background-color: orange;
+    height: 50px;
+}

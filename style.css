@@ -1,0 +1,116 @@
+
+/* Heand Line sytinling */
+a{
+    text-decoration: none;
+}
+#head1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: green;
+    background-color: rgba(10, 255, 10, 0.556);
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    
+}
+
+.head2{
+    text-align: center;
+    background-color: rgba(242, 255, 0, 0.637);
+}
+
+/* Headline images */
+.himg{
+    height: 15%;
+    width: 10%;
+    border-radius: 50%;
+}
+
+
+
+/* Main content */
+#Main{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    border: 5px solid black;
+    background-image: url(/Pedda_Harivanam/Gallary/village.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;   
+}
+
+#Mleft{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    background-color: rgba(173, 216, 230, 0.639);
+}
+
+/* alliging the tabel data */
+.col1{
+    text-align: left;
+    color: rgb(0, 33, 140);
+}
+
+#Mcenter{
+    padding: 1%;
+    width: 50%;
+    margin: 0px 5px 0px 5px;
+    background-color: rgba(35, 195, 195, 0.588);
+}
+/* Styling the Paragraph */
+.info{
+    font-size: large;
+    font-weight: 500;
+
+}
+
+/* style for the images at main */
+#gallary{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+
+}
+.scl{
+    width: 30%;
+    height: 30%;
+    border: 5px solid dashed;
+    margin-top: 2%;
+    
+}
+#Mright{
+    width: 25%;   
+    background-color: rgba(250, 250, 210, 0.732);
+}
+
+
+/* Pop - up image styles */
+#myModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+#modalContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+#displayedImage {
+    width: 100%;
+    height: 100%;
+}
