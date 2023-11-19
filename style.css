@@ -43,7 +43,7 @@ a{
 
 #Mleft{
     padding: 1%;
-    background-color: rgba(173, 216, 230, 0.639);
+    background-color: rgba(173, 216, 230, 0.734);
 }
 
 /* alliging the tabel data */
@@ -54,12 +54,11 @@ a{
 
 #Mcenter{
     padding: 1%;
-    
-    background-color: rgba(35, 195, 195, 0.588);
+    background-color: rgba(35, 195, 195, 0.761);
 }
 /* Styling the Paragraph */
 .info{
-    font-size: large;
+    font-size:x-large;
     font-weight: 500;
 
 }
@@ -83,7 +82,7 @@ a{
 }
 #Mright{
 
-    background-color: rgba(250, 250, 210, 0.732);
+    background-color: rgba(250, 250, 210, 0.509);
 }
 
 
@@ -108,4 +107,22 @@ a{
 #displayedImage {
     width: 100%;
     height: 100%;
+}
+
+/* Pvideo deiting */
+
+#Pvideo{
+    /* background-image: url(https://https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDYvEjpR0ol8bRjwiucts9RXOG2td2wbT31GCx2lKmqZC8KMRCaB6kQCaV-xlZ2HcFU1Q&usqp=CAU.pxfuel.com/wallpapers/62/68/desktop-wallpaper-village-farmer-novocom-top-indian-agriculture-thumbnail.jpg); */
+   background-color: rgba(127, 44, 122, 0.776);
+}
+
+@media (max-width:768px) {
+    .Pvideo{
+        width: 100%; 
+    }
+    #Pvideo{
+        background-color: rgba(237, 50, 50, 0.734);
+        border: 5px rgb(0, 26, 255) dotted;
+    }
+    
 }

@@ -9,7 +9,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container-fluid bg-primary text-white text-center">
+<!-- Navgation -->
+<!-- <ul class="nav nav-pills nav-justified justify-content-center bg-info rounded-pill" id="nav">
+  <li  class="nav-item"><a class="nav-link" href="#bg-color">Bg-color</a></li>
+  <li class="nav-item"><a class="nav-link" href="#tables">tables</a></li>
+  <li class="nav-item"><a class="nav-link" href="#images">images</a></li>
+  <li class="nav-item"><a class="nav-link" href="#buttons">buttons</a></li>
+  <li class="nav-item"><a class="nav-link" href="#spinners">spinners</a></li>
+  <li class="nav-item"><a class="nav-link" href="#pagination">pagination</a></li>
+  <li class="nav-item"><a class="nav-link" href="#dropdwon">dropdwon</a></li>
+  <li class="nav-item"><a class="nav-link" href="#demo">Collapse</a></li>
+  <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+</ul> -->
+
+<!-- Navaigation Bar -->
+
+<nav class="navbar navbar-expand-sm bg-success fixed-top">
+  <div class="container-fluid">
+    <a href="#" class="navbar-brand">
+      <img src="scl1.jpeg" alt="Avartha of logo" style="width: 40px;"  class="rounded-pill">
+    </a>
+
+  
+    <!-- links -->
+    <ul class="navbar-nav" id="nav">
+      <li  class="nav-item"><a class="nav-link" href="#bg-color">Bg-color</a></li>
+      <li class="nav-item"><a class="nav-link" href="#tables">tables</a></li>
+      <li class="nav-item"><a class="nav-link" href="#images">images</a></li>
+      <li class="nav-item"><a class="nav-link" href="#buttons">buttons</a></li>
+      <li class="nav-item"><a class="nav-link" href="#spinners">spinners</a></li>
+      <li class="nav-item"><a class="nav-link" href="#pagination">pagination</a></li>
+      <li class="nav-item"><a class="nav-link" href="#dropdwon">dropdwon</a></li>
+      <li class="nav-item"><a class="nav-link" href="#demo">Collapse</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <div class="container-fluid bg-primary text-white text-center mt-5">
     <h1>Jagadeesh</h1>
     <p>This is my first page</p>
   </div>
@@ -35,7 +71,7 @@
 
       <!-- Backoung colors -->
     </div>
-    <div class=" row mt-5" >
+    <div class=" row mt-5" id="bg-color">
       <div class="col-sm-12 p-5 bg-success container-fluid"></div>
       <div class="col-sm-12 p-5 bg-primary container-fluid"></div>
       <div class="col-sm-12 p-5 bg-black container-fluid"></div>
@@ -47,7 +83,7 @@
     </div>
 
     <!-- Tables -->
-    <div class="container mt-5">
+    <div class="container mt-5" id="tables">
       <h1 class="display-4 text-center"> Student details</h1>
       <table class="table table-hover table-dark text-center">
         <thead>
@@ -82,7 +118,7 @@
       </table>
     </div>
     <!-- Images -->
-    <div class="container bg-success">
+    <div class="container bg-success" id="images">
       <img src="scl1.jpeg" class="rounded-pill img-thumbnail img-fluid" alt="School" width="100%">
     </div>
 <!-- Alerts -->
@@ -91,7 +127,7 @@
       <strong>Jagadeesh</strong>
     </div>
     <!-- Button -->
-    <button class="btn btn-primary">Submit</button>
+    <button class="btn btn-primary" id="buttons">Submit</button>
     <button class="btn btn-secondary">Submit</button>
     <button class="btn btn-success">Submit</button>
     <button class="btn btn-warning">Submit</button>
@@ -150,7 +186,7 @@
   </div>
 
   <!-- Spinners  -->
-  <div class="container mt-5">
+  <div class="container mt-5" id="spinners">
     <div class="spinner-border text-danger"></div>
     <div class="spinner-border text-info"></div>
     <div class="spinner-border text-warning"></div>
@@ -164,6 +200,58 @@
     <div class="spinner-grow spinner-grow  text-warning"></div>
     <div class="spinner-grow spinner-grow  text-success"></div>
     <div class="spinner-grow spinner-grow  text-dark"></div>
+  </div>
+
+  <!-- Paginations: It will help us to crate a link to multleple pages -->
+  <ul class="pagination pagination-lg justify-content-end" id="pagination">
+    <li class="page-item"><a href="#" class="page-link">Previous</a></li>
+    <li class="page-item"><a href="#" class="page-link">1</a></li>
+    <li class="page-item"><a href="#" class="page-link">2</a></li>
+    <li class="page-item"><a href="#" class="page-link">3</a></li>
+    <li class="page-item"><a href="#" class="page-link">4</a></li>
+    <li class="page-item"><a href="#" class="page-link">5</a> </li>
+    <li class="page-item"><a href="#" class="page-link">6</a></li>
+    <li class="page-item"><a href="#" class="page-link">7</a></li>
+    <li class="page-item"><a href="#" class="page-link">8</a></li>
+    <li class="page-item active"><a href="#" class="page-link">Next</a></li>
+  </ul>
+
+  <!--  Cards -->
+  <div class="card m-5" style="width: 40%;">
+    
+    <div class="card-header bg-warning">About Jagadeesh</div>
+    <img src="Garji.jpg" alt="my school image" class="card-img-bottom img rounded-pill bg-warning img-thumbnail">
+    <div class="card-body bg-success">
+      <h2 class="card-title">Jagadeesh</h2>
+      <p class="card-text">jagadeesh is Good boy</p>
+      <a href="#card" class="card-link">click here</a>
+      <a href="#card-header">More details</a>
+    </div>
+    <div ></div>
+    <div class="card-footer bg-info">Thank you</div>
+  </div>
+
+  <!-- Dropdowns -->
+  <div class="dropdown m-4 dropstart" id="dropdwon">
+  <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown">
+    Select product
+  </button>
+  <ul class="dropdown-menu bg-warning">
+    <li class="dropdown-item">Car</li>
+    <li class="dropdown-item">Bike</li>
+    <li class="dropdown-item">Cycle</li>
+    <li class="dropdown-item"> TV</li>
+    <li class="dropdown-item">Laptop</li>
+  </ul>
+  </div>
+
+  <!-- Collapes -->
+
+  <button type="button" data-bs-toggle="collapse" data-bs-target="#demo" class="btn btn-primary mt-5">click me</button>
+  <div id="demo" class="collapse show m-5">Jagadeesh is good boy and he went to banglore to earn money but even one rupee also sent back to home</div>
+  <div class="d-grid">
+    <!-- <button type="button" class="btn btn-primary btn-block"> <a href="#nav"> Home</a>Full-Width Button</button> -->
+  <a href="#nav" class="justify-content-center"><button type="button" class="btn btn-primary btn-block">Full-Width Button</button></a>
   </div>
 </body>
 </html>
